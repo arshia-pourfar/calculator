@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>first_praject</title>
+</head>
+
+<body>
+    <div id="page2">
+        <button class="btn_start" onclick="startt()" ondblclick="dbstart()">Start</button>
+        <br>
+        <button id="color"></button>
+        <span id="seconds">00</span><br>
+        <br>
+
+        <img class="mycar" src="https://www.loginbrands.com/images/Article/101949-Genesis-G90-2020-Inside-23.jpg">
+
+        <button id="tormoz" onclick="tormozz()" style="visibility: hidden;">tormoz</button>
+        <button id="ghaz" onclick="ghazz()" style="visibility: hidden;">ghaz</button>
+        <br> on doble click turn of car and exit
+    </div>
+</body>
+<script>
+    var sec = document.getElementById('seconds');
+    var seconds = 00;
+    var sor = 0;
+    var Interval;
+
+    function startt() {
+        document.getElementById("color").style.backgroundColor = "#76c500";
+        document.getElementById("tormoz").style.visibility = "visible";
+        document.getElementById("ghaz").style.visibility = "visible";
+        var audio = new Audio("car-satart1.mp3");
+        audio.play();
+    }
+
+    function dbstart() {
+        document.getElementById("color").style.backgroundColor = "grey";
+        window.location = "C:/Users/arshi/Desktop/chees praject/index.html";
+    }
+
+    function tormozz() {
+        document.getElementById("seconds").style.color = "red";
+        clearInterval(Interval);
+        Interval = setInterval(startTimer, 250);
+
+        function startTimer() {
+
+            if (seconds != 00) {
+                seconds--;
+                sec.innerHTML = "0" + seconds;
+            } else if (seconds >= 01) {
+                sec.innerHTML = "0" + seconds;
+            }
+        }
+    }
+
+    function ghazz() {
+        document.getElementById("seconds").style.color = "green";
+        clearInterval(Interval);
+        Interval = setInterval(startTimer, 250);
+
+        function startTimer() {
+            seconds++;
+
+            if (seconds < 350) {
+                sec.innerHTML = "0" + seconds;
+            }
+        }
+    }
+    document.getElementById("demo").innerHTML = sor;
+</script>
+
+</html>

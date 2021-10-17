@@ -1,0 +1,56 @@
+    .car {
+        margin-left: 30%;
+        margin-top: 5%;
+        height: 10cm;
+    }
+    
+    .btn_close {
+        background-color: red;
+    }
+    
+    .btn_open {
+        background-color: green;
+    }
+    
+    .mycar {
+        margin-left: 29%;
+        height: 8cm;
+        margin-top: 2%;
+    }
+    
+    .btn_start {
+        margin-top: 0.5cm;
+        border-radius: 50px;
+        margin-left: 2cm;
+        height: 1.5cm;
+        width: 2cm;
+    }
+    
+    #color {
+        background-color: grey;
+        height: 15px;
+        width: 50px;
+        margin-left: 2.35cm;
+        margin-top: 0cm;
+    }
+    
+    #ghaz {
+        background-color: grey;
+        height: 3cm;
+        width: 1.5cm;
+        margin-top: 1cm;
+        margin-left: 1cm;
+    }
+    
+    #tormoz {
+        background-color: grey;
+        height: 2cm;
+        width: 2cm;
+        margin-top: 1cm;
+        margin-left: 15cm;
+    }
+    
+    #seconds {
+        font-size: xx-large;
+        margin-left: 37%;
+    }
