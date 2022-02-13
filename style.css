@@ -30,6 +30,7 @@ body {
     padding: 10px 5px;
     border-radius: 7px;
     margin-bottom: 20px;
+    user-select: none;
 }
 
 .btn {
