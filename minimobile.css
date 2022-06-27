@@ -63,12 +63,6 @@ body {
     font-size: 1.3em;
 }
 
-.btn:hover,
-#btn-pn:hover,
-#btn-pint:hover {
-    background-color: #7c7c7ccb;
-}
-
 .btn:active {
     box-shadow: 1px 1px 5px #000 inset;
     padding: 11px 6px;
@@ -95,13 +89,6 @@ body {
 #btn-div,
 #btn-minus {
     background: #ffbb00e3;
-}
-
-#btn-plus:hover,
-#btn-mul:hover,
-#btn-div:hover,
-#btn-minus:hover {
-    background: #f3cf6d;
 }
 
 #btn-mul {
