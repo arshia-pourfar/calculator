@@ -2,4 +2,4 @@
 
 /////////////////////////////////////////////////////////////////////////////
 
-Making this program from 2022/5/24 Friday to 2022/5/27 Monday
+This program lasted from 2022/5/24 Friday to 2022/5/27 Monday
